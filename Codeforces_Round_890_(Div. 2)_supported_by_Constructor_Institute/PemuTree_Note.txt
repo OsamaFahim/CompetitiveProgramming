@@ -1,0 +1,5 @@
+Pleae reconsider doing PermuTree E1 again as it was a very good problem and also the problem of partitioning an array into two subsets
+such that subset's sum has minimum absolute differene which you solved on geeks for geeks, you grapsed the concept overall but theie were
+confusions regarding the implementation of dp and why return are dp[0][0] (bottom up) and dp[n][0] top down these things must be cleared
+when you get algorithmic maturity overall solid decent nice problem also the concept you got might not have been intuitively clear so it 
+would be very good to do the whole problem
