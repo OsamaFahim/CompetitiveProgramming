@@ -94,3 +94,5 @@ This format is structured for quick revision. More problems can be added below i
     1. Ensure at least one value is already `x` (or modify one to be `x` if needed).
     2. Adjust the sum by setting the value which was changed to x or was already x to `x - (sum of others)`.
     3. Modify all remaining values to reach `x` by adding the required differences.
+    ## Reference:
+    - [Codeforces 1419C - Killjoy](https://codeforces.com/problemset/problem/1419/C)
