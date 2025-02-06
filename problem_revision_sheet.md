@@ -37,4 +37,56 @@
 
 ---
 
+[CSES - Ferris Wheel](https://cses.fi/problemset/task/1090/)
+
+### **Problem Summary:**
+- **Given:** `n` people with weights and a gondola that can carry at most `x` weight.
+- **Goal:** Find the **minimum number of gondolas** needed.
+- **Constraint:** Each gondola can carry **at most 2 people**.
+
+### **Key Approach:**
+1. **Sort the List** (Ascending Order) – This allows efficient pairing.
+2. **Two-Pointer Technique:**
+   - Start with the **lightest (`i = 0`) and heaviest (`j = n-1`)** person.
+   - If `p[i] + p[j] <= x`, pair them and move both pointers (`i++`, `j--`).
+   - Otherwise, send `p[j]` alone (`j--`).
+   - Repeat until all are assigned.
+3. **Why It Works?** Greedily eliminating the heaviest first ensures minimal gondolas.
+
+### **Example Input & Output:**
+
+#### **Input Format:**
+1. First line: `n x` (number of people, weight limit per gondola).
+2. Second line: `n` space-separated integers (weights of people).
+
+#### **Input:**
+```
+4 10
+7 2 3 9
+```
+
+#### **Output:**
+```
+3
+```
+
+---
+
+### **New Variants & Extensions:**
+1. **Allowing More Than 2 People per Gondola:**
+   - Use a **greedy packing strategy**: Always try to fill the gondola as much as possible before sending it.
+   - Process from **heaviest to lightest**, fitting as many as possible until the sum exceeds `x`.
+
+2. **Only Weight Constraint (No Limit on Number of People):**
+   - Start from the **heaviest person** and keep adding people until the gondola reaches the weight limit.
+   - When exceeded, start a new gondola.
+
+### **Core Concept & Idea:**
+- **Sorting & Greedy Approach** ensures we minimize wasted space.
+- **Two-Pointer Strategy** efficiently pairs people to minimize the number of gondolas.
+- **If more than 2 people were allowed,** a **greedy bin-packing approach** works best.
+
+---
+
+
 This format is structured for quick revision. More problems can be added below in the same format!
