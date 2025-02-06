@@ -84,7 +84,6 @@
 - **Two-Pointer Strategy** efficiently pairs people to minimize the number of gondolas.
 - **If more than 2 people were allowed,** a **greedy bin-packing approach** works best.
 
----
 
 This format is structured for quick revision. More problems can be added below in the same format!
 
