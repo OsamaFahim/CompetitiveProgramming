@@ -37,7 +37,7 @@
 
 ---
 
-[CSES - Ferris Wheel](https://cses.fi/problemset/task/1090/)
+## [CSES - Ferris Wheel](https://cses.fi/problemset/task/1090/)
 
 ### **Problem Summary:**
 - **Given:** `n` people with weights and a gondola that can carry at most `x` weight.
@@ -70,8 +70,6 @@
 3
 ```
 
----
-
 ### **New Variants & Extensions:**
 1. **Allowing More Than 2 People per Gondola:**
    - Use a **greedy packing strategy**: Always try to fill the gondola as much as possible before sending it.
@@ -87,6 +85,5 @@
 - **If more than 2 people were allowed,** a **greedy bin-packing approach** works best.
 
 ---
-
 
 This format is structured for quick revision. More problems can be added below in the same format!
