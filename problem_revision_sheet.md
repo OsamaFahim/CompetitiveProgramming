@@ -88,8 +88,8 @@
 
 This format is structured for quick revision. More problems can be added below in the same format!
 
-#### **Notes:** 
-# Making All Values Equal to `x` with Zero Sum Change
+# Notes
+#### **Making All Values Equal to `x` with Zero Sum Change** 
 
 ### Steps:
 1. Ensure at least one value is already `x` (or modify one to be `x` if needed).
