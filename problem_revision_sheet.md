@@ -89,7 +89,7 @@ This format is structured for quick revision. More problems can be added below i
 
 ---
 
-# Notes
+# Notes:
 
 ## Making All Values Equal to `x` with Zero Sum Change  
 
